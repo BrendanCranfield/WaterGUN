@@ -1,27 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8978458887275306538
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b94fcd11afffcb142908bfcb1e261fba, type: 3}
-  m_Name: MotionBlur
-  m_EditorClassIdentifier: 
-  active: 1
-  enabled:
-    overrideState: 1
-    value: 1
-  shutterAngle:
-    overrideState: 1
-    value: 230
-  sampleCount:
-    overrideState: 0
-    value: 32
 --- !u!114 &-8138529268321856638
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -49,10 +27,10 @@ MonoBehaviour:
     value: {x: 0.5, y: 0.5}
   intensity:
     overrideState: 1
-    value: 0.4
+    value: 0.2
   smoothness:
     overrideState: 1
-    value: 0.3
+    value: 1
   roundness:
     overrideState: 0
     value: 1
@@ -112,7 +90,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 5
+    value: 2
   threshold:
     overrideState: 0
     value: 0
@@ -206,7 +184,7 @@ MonoBehaviour:
     value: -180
   saturation:
     overrideState: 1
-    value: 25
+    value: 15
   brightness:
     overrideState: 0
     value: 0
@@ -1452,6 +1430,34 @@ MonoBehaviour:
       - 0.5
       - 0.5
       - 0.5
+--- !u!114 &-240010490195669203
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 556797029e73b2347956b6579e77e05b, type: 3}
+  m_Name: DepthOfField
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  focusDistance:
+    overrideState: 1
+    value: 6
+  aperture:
+    overrideState: 1
+    value: 3
+  focalLength:
+    overrideState: 0
+    value: 50
+  kernelSize:
+    overrideState: 0
+    value: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1469,8 +1475,8 @@ MonoBehaviour:
   - {fileID: -5778363031308187421}
   - {fileID: 4259352741458857117}
   - {fileID: -3733122618888262812}
-  - {fileID: -8978458887275306538}
   - {fileID: -6279998335542888538}
+  - {fileID: -240010490195669203}
 --- !u!114 &4259352741458857117
 MonoBehaviour:
   m_ObjectHideFlags: 3

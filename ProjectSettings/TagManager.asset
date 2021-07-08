@@ -4,8 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Fire
-  - CarParent
+  - AI
   layers:
   - Default
   - TransparentFX
@@ -15,25 +14,25 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - PostProcessingVolumes
+  - EnvironmentRough
+  - EnvironmentDetail
+  - MovingPlatforms
+  - DynamicProps
+  - CharacterControllers
+  - CharacterFirstPerson
+  - CharacterExternal
+  - CharacterPhysics
+  - CharacterRagdoll
+  - CharacterNonColliding
+  - WieldablesFirstPerson
+  - WieldablesExternal
+  - TriggerZones
+  - InteractiveObjects
+  - Doors
+  - SmallDynamicObjects
+  - Effects
+  - AiVisibility
   - 
   - 
   - 
